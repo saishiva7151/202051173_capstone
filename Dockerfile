@@ -1,5 +1,5 @@
 FROM hshar/webapp
-LABEL "Author"="saishiva12"
+LABEL "Author"="saishiva"
 RUN apt update
 RUN apt install apache2 -y && apt install git -y
 RUN rm -rf /var/www/html/*
